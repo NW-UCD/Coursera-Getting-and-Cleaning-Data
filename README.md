@@ -10,6 +10,10 @@ variable with more descriptive names that are easier to understand by a non-spec
 collects the mean average of each of these variables for each activity undertaken by each of the 30 
 subjects (each person) and writes it into the file "qu5.txt" as a tidy data set, as per Hadley Wickham's 2013 paper, "Tidy Data".
 
+
+There is a CodeBook.md file available giving details of the script run_analysis.R, explaining what each step of the code does to the data
+and the meaning of any abbreviations used. 
+
 The summarised data of averages can be read in R using  
 averages <- read.table("qu5.txt", header = TRUE) 
     View(averages)
